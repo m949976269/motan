@@ -1,5 +1,43 @@
 # Change Log
 
+## [1.0.0](https://github.com/weibocom/motan/tree/1.0.0) (2017-10-31)
+[Full Changelog](https://github.com/weibocom/motan/compare/0.3.1...1.0.0)
+
+**Implemented enhancements:**
+
+- add motan2 protocol for cross-language transport [\#561](https://github.com/weibocom/motan/pull/561) ([Ray](https://github.com/rayzhang0603))
+- add gRPC protocol support [\#561](https://github.com/weibocom/motan/pull/561) ([Ray](https://github.com/rayzhang0603))
+- add simple serialization [\#561](https://github.com/weibocom/motan/pull/561) ([Ray](https://github.com/rayzhang0603))
+- add RpcContext for pass custom params [\#561](https://github.com/weibocom/motan/pull/561) ([Ray](https://github.com/rayzhang0603))
+- add InitializableFilter interface [\#561](https://github.com/weibocom/motan/pull/561) ([Ray](https://github.com/rayzhang0603))
+- add transExceptionStack in motan config to avoid transport java exception stack [\#561](https://github.com/weibocom/motan/pull/561) ([Ray](https://github.com/rayzhang0603))
+
+**Fixed bugs:**
+
+**Merged pull requests:**
+
+- refine DefaultProvider log [\#501](https://github.com/weibocom/motan/pull/501) ([yeluoguigen009](https://github.com/yeluoguigen009)) 
+
+
+## [0.3.1](https://github.com/weibocom/motan/tree/0.3.1) (2017-07-11)
+[Full Changelog](https://github.com/weibocom/motan/compare/0.3.0...0.3.1)
+
+**Implemented enhancements:**
+
+- add protobuf serialization [\#425](https://github.com/weibocom/motan/pull/425) ([东方上人](https://github.com/dongfangshangren))
+- add restful protocol support [\#458](https://github.com/weibocom/motan/pull/458) ([东方上人](https://github.com/dongfangshangren))
+
+**Fixed bugs:**
+
+- fix basic service not enable [\#423](https://github.com/weibocom/motan/pull/423) ([Voyager3](https://github.com/xxxxzr)) 
+- add ShutDownHookListener [\#443](https://github.com/weibocom/motan/pull/443) ([Voyager3](https://github.com/xxxxzr))
+- fix zookeeper UT [\#334](https://github.com/weibocom/motan/pull/334) ([sunnights](https://github.com/sunnights))
+
+**Merged pull requests:**
+
+- polish ConsulEcwidClient [\#395](https://github.com/weibocom/motan/pull/395) ([Jin Zhang](https://github.com/lowzj)) 
+- reduce duplication of getting referer [\#407](https://github.com/weibocom/motan/pull/407) ([brandy](https://github.com/xiaoqing-yuanfang)) 
+
 ## [0.3.0](https://github.com/weibocom/motan/tree/0.3.0) (2017-03-09)
 [Full Changelog](https://github.com/weibocom/motan/compare/0.2.3...0.3.0)
 
